@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "SkinPlusApp",
+    "slug": "SkinPlusApp",
+    "version": "1.0.0",
+    
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/images/bg_gradient_logo.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#6C24AA"
+    },
+    "extra": {
+      "backend": "https://telemed.trangskin.go.th:5001",
+      "backend2": "https://192.168.1.248:5001"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
